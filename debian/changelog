@@ -1,0 +1,67 @@
+cupsconfig-kanotix (0.5.10) unstable; urgency=low
+
+  * optimize packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Jul 2005 20:42:36 +0200
+
+cupsconfig-kanotix (0.5-9) unstable; urgency=low
+
+  * fixed icon.
+  * fix dependencies.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 17 Dec 2004 16:25:52 +0100
+
+cupsconfig-kanotix (0.5-8) unstable; urgency=low
+
+  * remove gnome legacy support. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 16 Dec 2004 22:45:57 +0100
+
+cupsconfig-kanotix (0.5-7) unstable; urgency=low
+
+  * Forked for Kanotix XDG compatibility.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Dec 2004 20:38:06 +0100
+
+cupsconfig-knoppix (0.5-7) unstable; urgency=low
+
+  *  Changed kcmshell printmgr -> printers
+
+ -- Klaus Knopper <knoppix@knopper.net>  Thu, 22 Jan 2004 13:33:14 +0100
+
+cupsconfig-knoppix (0.5-6) unstable; urgency=low
+
+  * Added spanish messages by Sergio Gonzalez <sergio.gonzalez@hispalinux.es>, Luis Llorente <luis.llorente@hispalinux.es>
+
+ -- Klaus Knopper <knoppix@knopper.net>  Fri,  6 Dec 2002 18:36:18 +0100
+
+cupsconfig-knoppix (0.5-5) unstable; urgency=low
+
+  * Replaced wget with lpstat -r
+
+ -- Klaus Knopper <knoppix@knopper.net>  Mon, 12 Aug 2002 17:31:51 +0200
+
+cupsconfig-knoppix (0.5-4) unstable; urgency=low
+
+  * Added --nocrashhandler and if() reordering
+
+ -- Klaus Knopper <knoppix@knopper.net>  Fri, 26 Jul 2002 23:29:57 +0200
+
+cupsconfig-knoppix (0.5-3) unstable; urgency=low
+
+  * Use "quiet" option of wget
+
+ -- Klaus Knopper <knoppix@knopper.net>  Fri, 28 Jun 2002 16:19:48 +0200
+
+cupsconfig-knoppix (0.5-2) unstable; urgency=low
+
+  * cupsys dependency
+
+ -- Klaus Knopper <knoppix@knopper.net>  Thu, 21 Mar 2002 01:32:30 +0100
+
+cupsconfig-knoppix (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Klaus Knopper <knoppix@knopper.net>  Mon,  4 Jun 2001 00:24:42 +0200
+

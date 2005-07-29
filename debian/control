@@ -1,0 +1,14 @@
+Source: cupsconfig-kanotix
+Section: net
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: @cdbs@
+Standards-Version: 3.6.2
+
+Package: cupsconfig-kanotix
+Architecture: all
+Depends: cupsys, cupsys-client, kcontrol, xbase-clients, kdeprint, kdebase-bin
+Provides: cupsconfig-knoppix
+Replaces: cupsconfig-knoppix
+Description: Minimalistic cups configuration script
+ Configuration wizzard for KANOTIX.

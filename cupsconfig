@@ -1,0 +1,39 @@
+#!/bin/bash
+# cupsconfig - Start and configure cups
+# (C) Klaus Knopper Jun 2001
+
+PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin"
+export PATH
+
+CUPSPID="$(pidof cupsd)"
+if [ -z "$CUPSPID" ]; then
+[ -x /etc/init.d/cupsys ] && sudo /etc/init.d/cupsys start
+sleep 4
+fi
+
+error=1
+for i in 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2; do
+sleep $i
+# wget -q -O /dev/null http://127.0.0.1:631/
+lpstat -r >/dev/null 2>&1
+error="$?"
+[ "$error" = "0" ] && break
+done
+
+if [ "$error" = "0" ]; then
+exec kcmshell --nocrashhandler printers
+# exec kcmshell --nocrashhandler printmgr
+# KDE 3.0:
+# exec kcmshell --nocrashhandler System/printmgr
+else 
+[ -f /etc/sysconfig/knoppix ] && . /etc/sysconfig/knoppix
+case "$LANGUAGE" in
+	es)
+		exec xmessage '¡No puedo arrancar el servidor CUPS!'
+		;;
+	*)
+		exec xmessage 'Cannot start CUPS server!'
+		;;
+esac
+fi
+
