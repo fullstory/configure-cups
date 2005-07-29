@@ -1,8 +1,9 @@
 cupsconfig-kanotix (0.5.10) unstable; urgency=low
 
   * optimize packaging.
+  * fix cdbs auto update.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Jul 2005 20:42:36 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Jul 2005 21:34:54 +0200
 
 cupsconfig-kanotix (0.5-9) unstable; urgency=low
 
