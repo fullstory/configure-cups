@@ -1,3 +1,9 @@
+cupsconfig-kanotix (0.5.12) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 12 Sep 2005 03:30:12 +0200
+
 cupsconfig-kanotix (0.5.11) unstable; urgency=low
 
   * switch to kanotix-su.
