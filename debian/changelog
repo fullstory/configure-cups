@@ -1,3 +1,9 @@
+cupsconfig-kanotix (0.5.11) unstable; urgency=low
+
+  * switch to kanotix-su.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 12 Sep 2005 03:28:38 +0200
+
 cupsconfig-kanotix (0.5.10) unstable; urgency=low
 
   * optimize packaging.
