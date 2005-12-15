@@ -1,3 +1,9 @@
+cupsconfig-kanotix (0.5.13) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 15 Dec 2005 10:55:39 +0100
+
 cupsconfig-kanotix (0.5.12) unstable; urgency=low
 
   * synch with cupsconfig-knoppix 0.5-9, changes by Klaus Knopper
