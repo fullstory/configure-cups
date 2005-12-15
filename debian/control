@@ -8,7 +8,5 @@ Standards-Version: 3.6.2
 Package: cupsconfig-kanotix
 Architecture: all
 Depends: cupsys, cupsys-client, kcontrol, xbase-clients, kdeprint, kdebase-bin, kanotix-su
-Provides: cupsconfig-knoppix
-Replaces: cupsconfig-knoppix
 Description: Minimalistic cups configuration script
  Configuration wizzard for KANOTIX.

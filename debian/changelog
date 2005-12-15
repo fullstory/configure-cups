@@ -1,8 +1,14 @@
-cupsconfig-kanotix (0.5.12) UNRELEASED; urgency=low
+cupsconfig-kanotix (0.5.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * synch with cupsconfig-knoppix 0.5-9, changes by Klaus Knopper
+    <knopper@knopper.net>.
+    - Start kcmshell as root (KDE 3.4 wants this).
+    - Add cupsys startscript.
+  * use kanotix-su instead of sudo.
+  * re- indent.
+  * remove virtual knoppix packages.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 12 Sep 2005 03:30:12 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 13 Dec 2005 08:58:24 +0100
 
 cupsconfig-kanotix (0.5.11) unstable; urgency=low
 
