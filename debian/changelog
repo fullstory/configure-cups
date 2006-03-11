@@ -1,3 +1,9 @@
+cupsconfig-kanotix (0.5.14) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:12:58 +0100
+
 cupsconfig-kanotix (0.5.13) unstable; urgency=low
 
   * remove cdbs auto-update feature.
