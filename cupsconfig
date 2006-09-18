@@ -5,6 +5,11 @@
 PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin"
 export PATH
 
+HPLIP="$(pidof hpiod)"
+if [ -z "$HPLIP" ]; then
+	[ -x /etc/init.d/hplip ] && sudo /etc/init.d/hplip start
+fi
+
 CUPSPID="$(pidof cupsd)"
 if [ -z "$CUPSPID" ]; then
 	[ -x /etc/init.d/cupsys ] && sudo /etc/init.d/cupsys start

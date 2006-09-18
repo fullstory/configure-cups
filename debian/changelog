@@ -1,8 +1,8 @@
-cupsconfig-kanotix (0.5.14) UNRELEASED; urgency=low
+cupsconfig-kanotix (0.5.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * start hplip too.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:12:58 +0100
+ -- Joerg Schirottke <master@kanotix.com>  Sun, 17 Sep 2006 22:16:23 +0200
 
 cupsconfig-kanotix (0.5.13) unstable; urgency=low
 
