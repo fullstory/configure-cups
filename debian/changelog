@@ -1,8 +1,9 @@
-cupsconfig-kanotix (0.5.15) UNRELEASED; urgency=low
+cupsconfig-kanotix (0.5.15) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to utf-8.
+  * fix lintian errors.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 18 Sep 2006 02:01:37 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 31 Oct 2006 23:42:06 +0100
 
 cupsconfig-kanotix (0.5.14) unstable; urgency=low
 

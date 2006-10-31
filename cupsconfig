@@ -35,7 +35,7 @@ else
 	[ -f /etc/sysconfig/knoppix ] && . /etc/sysconfig/knoppix
 	case "$LANGUAGE" in
 		es)
-			exec xmessage '¡No puedo arrancar el servidor CUPS!'
+			exec xmessage 'Â¡No puedo arrancar el servidor CUPS!'
 			;;
 		*)
 			exec xmessage 'Cannot start CUPS server!'
