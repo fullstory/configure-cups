@@ -1,8 +1,11 @@
-cupsconfig-kanotix (0.5.17) UNRELEASED; urgency=low
+cupsconfig-kanotix (0.5.17) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * use kanotix-su.
+  * get rid of useless /etc/sysconfig/ usage.
+  * simplify code.
+  * use #!/bin/sh.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  2 Nov 2006 22:32:35 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  9 Nov 2006 18:58:03 +0100
 
 cupsconfig-kanotix (0.5.16) unstable; urgency=low
 
