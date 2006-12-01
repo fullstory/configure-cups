@@ -8,12 +8,12 @@ export PATH
 
 HPLIP="$(pidof hpiod)"
 if [ -z "$HPLIP" ]; then
-	[ -x /etc/init.d/hplip ] && kanotix-su /etc/init.d/hplip start
+	[ -x /etc/init.d/hplip ] && su-me /etc/init.d/hplip start
 fi
 
 CUPSPID="$(pidof cupsd)"
 if [ -z "$CUPSPID" ]; then
-	[ -x /etc/init.d/cupsys ] && kanotix-su /etc/init.d/cupsys start
+	[ -x /etc/init.d/cupsys ] && su-me /etc/init.d/cupsys start
 	sleep 4
 fi
 
@@ -22,8 +22,8 @@ for i in $(seq 1 20); do
 	lpstat -r >/dev/null 2>&1
 	error="$?"
 	if [ "$?" -eq 0 ]; then
-		if kanotix-su kcmshell --nocrashhandler printers; then
-			kanotix-su update-rc.d -f cupsys defaults
+		if su-me kcmshell --nocrashhandler printers; then
+			su-me update-rc.d -f cupsys defaults
 		else
 			kcmshell --nocrashhandler printers
 		fi
