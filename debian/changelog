@@ -1,3 +1,9 @@
+configure-cups (0.5.20) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 12:19:39 +0100
+
 configure-cups (0.5.19) unstable; urgency=low
 
   * cupsconfig-kanotix was never in sidux, don't conflict with it.
