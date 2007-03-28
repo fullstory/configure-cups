@@ -1,8 +1,11 @@
 [Desktop Entry]
-Comment[de]=Drucker konfigurieren
-Comment=Configure printer(s)
+Encoding=UTF-8
+Type=Application
 Exec=su-me /usr/sbin/cupsconfig
 Icon=printmgr
-Name[de]=Drucker konfigurieren
 Name=Configure printer(s)
-Type=Application
+Comment=Configure printer(s)
+Name[de]=Drucker konfigurieren
+Comment[de]=Drucker konfigurieren
+
+Categories=sidux;Config
