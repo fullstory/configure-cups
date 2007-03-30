@@ -1,12 +1,12 @@
-configure-cups (0.5.20) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+configure-cups (0.5.20) unstable; urgency=low
 
   [ Joaquim Boura ]
   * moving to xdg-menus
 
- -- Joaquim Boura <x-un-i@sidux.com>  Wed, 28 Mar 2007 21:34:54 +0200
+  [ Stefan Lippers-Hollmann ]
+  * depend on sidux-xdg.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 30 Mar 2007 22:39:22 +0200
 
 configure-cups (0.5.19) unstable; urgency=low
 

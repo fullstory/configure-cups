@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: configure-cups
 Architecture: all
-Depends: cupsys, cupsys-client, su-me
+Depends: cupsys, cupsys-client, su-me, sidux-xdg
 Recommends: kcontrol, xbase-clients, kdeprint, kdebase-bin
 Description: Minimalistic cups configuration script
  Configuration wizzard for sidux.
