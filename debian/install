@@ -1,2 +1,2 @@
-*.desktop usr/share/applnk/sidux/Config/
-cupsconfig usr/sbin/
+*.desktop	usr/share/applications/sidux/
+cupsconfig	usr/sbin/

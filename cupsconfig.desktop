@@ -7,5 +7,4 @@ Name=Configure printer(s)
 Comment=Configure printer(s)
 Name[de]=Drucker konfigurieren
 Comment[de]=Drucker konfigurieren
-
 Categories=sidux;Config
