@@ -1,12 +1,12 @@
-configure-cups (0.5.22) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+configure-cups (0.5.22) unstable; urgency=low
 
   [ Joaquim Boura ]
   * set new icon
 
- -- Joaquim Boura <x-un-i@sidux.com>  Sat, 07 Apr 2007 14:54:33 +0200
+  [ Stefan Lippers-Hollmann ]
+  * fix debian/copyright.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Apr 2007 01:36:18 +0200
 
 configure-cups (0.5.21) unstable; urgency=low
 
