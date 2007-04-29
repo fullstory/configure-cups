@@ -1,8 +1,12 @@
 configure-cups (0.5.23) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Apr 2007 01:37:46 +0200
+  [ Joaquim Boura ]
+  * new sidux-cups icon
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Sun, 29 Apr 2007 17:59:42 +0200
 
 configure-cups (0.5.22) unstable; urgency=low
 
