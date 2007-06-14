@@ -1,4 +1,4 @@
-configure-cups (0.5.24) UNRELEASED; urgency=low
+configure-cups (0.5.24) unstable; urgency=low
 
   * Removed versioned depends on cdbs, artifact of old debian/control
     auto-update feature.
