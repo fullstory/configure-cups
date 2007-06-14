@@ -6,6 +6,8 @@
 PATH="/bin:/sbin:/usr/bin:/usr/sbin"
 export PATH
 
+[ "$(id -u)" -ne 0 ] && exec su-me "$0" "$@"
+
 HPLIP="$(pidof hpiod)"
 if [ -z "$HPLIP" ]; then
 	[ -x /etc/init.d/hplip ] && su-me /etc/init.d/hplip start
