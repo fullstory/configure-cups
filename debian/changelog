@@ -1,8 +1,8 @@
-configure-cups (0.5.25) UNRELEASED; urgency=low
+configure-cups (0.5.25) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix debian menu.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 14 Jun 2007 17:13:10 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 07 Jul 2007 15:24:45 +0200
 
 configure-cups (0.5.24) unstable; urgency=low
 
