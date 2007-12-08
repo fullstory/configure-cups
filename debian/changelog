@@ -1,6 +1,5 @@
-configure-cups (0.5.27) UNRELEASED; urgency=low
+configure-cups (0.5.27) unstable; urgency=low
 
-  * NOT RELEASED YET
   * update to Standards-Version 3.7.3, no changes necessary.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Dec 2007 11:55:59 +0100
