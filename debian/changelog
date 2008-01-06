@@ -1,8 +1,12 @@
 configure-cups (0.5.28) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 08 Dec 2007 16:34:17 +0100
+  [ Joaquim Boura ]
+  * enhancement to support gnome. Some other fixes done.
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Mon, 07 Jan 2008 00:19:41 +0100
 
 configure-cups (0.5.27) unstable; urgency=low
 

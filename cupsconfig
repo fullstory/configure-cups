@@ -1,29 +1,35 @@
 #!/bin/sh
+set -x
+echo one
+exec 2>&1 >/tmp/cupslog
 # cupsconfig - Start and configure cups
 # (C) Klaus Knopper Jun 2001
 # (C) 2004-2007 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-
+ 
 PATH="/bin:/sbin:/usr/bin:/usr/sbin"
 export PATH
-
+ 
 [ "$(id -u)" -ne 0 ] && exec su-me "$0" "$@"
-
+ 
 HPLIP="$(pidof hpiod)"
 if [ -z "$HPLIP" ]; then
 	[ -x /etc/init.d/hplip ] && su-me /etc/init.d/hplip start
 fi
-
+ 
 CUPSPID="$(pidof cupsd)"
 if [ -z "$CUPSPID" ]; then
 	[ -x /etc/init.d/cupsys ] && su-me /etc/init.d/cupsys start
 	sleep 4
 fi
-
+ 
 for i in $(seq 1 20); do
 	sleep 2
-	
+ 
 	if lpstat -r; then
-		if [ -x /usr/bin/kcmshell ]; then
+		if -x /usr/bin/gnome-cups-manager ] ; then
+			su-me update-rc.d -f cupsys defaults
+			[ -n "$DISPLAY" ] && exec /usr/bin/gnome-cups-manager
+		elif [ -x /usr/bin/kcmshell ] ; then
 			if su-me kcmshell --nocrashhandler printers; then
 				su-me update-rc.d -f cupsys defaults
 			else
@@ -31,20 +37,19 @@ for i in $(seq 1 20); do
 			fi
 		else
 			su-me update-rc.d -f cupsys defaults
-			[ -z "$DISPLAY" ] && exec x-www-browser "http://127.0.0.1:631"
-			[ -n "$DISPLAY" ] && exec   www-browser "http://127.0.0.1:631"
-		fi
-
+			[ -n "$DISPLAY" ] && exec x-www-browser "http://127.0.0.1:631"
+			[ -z "$DISPLAY" ] && exec   www-browser "http://127.0.0.1:631"
+		fi 
 		break
 	else
 		case "$LANG" in
 			es*)
-				[ -z "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage '¡No puedo arrancar el servidor CUPS!'
-				echo '¡No puedo arrancar el servidor CUPS!' 1>&2
+				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Â¡No puedo arrancar el servidor CUPS!'
+				echo 'Â¡No puedo arrancar el servidor CUPS!' 1>&2
 				exit 1
 				;;
 			*)
-				[ -z "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Cannot start CUPS server!'
+				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Cannot start CUPS server!'
 				echo 'Cannot start CUPS server!' 1>&2
 				exit 1
 				;;
