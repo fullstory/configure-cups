@@ -9,6 +9,7 @@ export PATH
 if [ "$(id -u)" -ne 0 ]; then
 	[ -x "$(which su-to-root)" ] && exec su-to-root -X -c "$0" "$@"
 	printf "ERROR: $0 needs root capabilities, please start it as root\n\n" >&2
+	exit 1
 fi
 
 HPLIP="$(pidof hpiod)"
@@ -46,12 +47,12 @@ for i in $(seq 1 20); do
 			es*)
 				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Â¡No puedo arrancar el servidor CUPS!'
 				echo 'Â¡No puedo arrancar el servidor CUPS!' 1>&2
-				exit 1
+				exit 2
 				;;
 			*)
 				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Cannot start CUPS server!'
 				echo 'Cannot start CUPS server!' 1>&2
-				exit 1
+				exit 2
 				;;
 		esac
 	fi
