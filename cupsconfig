@@ -1,30 +1,27 @@
 #!/bin/sh
-set -x
-echo one
-exec 2>&1 >/tmp/cupslog
 # cupsconfig - Start and configure cups
 # (C) Klaus Knopper Jun 2001
 # (C) 2004-2007 Stefan Lippers-Hollmann <s.l-h@gmx.de>
- 
+
 PATH="/bin:/sbin:/usr/bin:/usr/sbin"
 export PATH
- 
+
 [ "$(id -u)" -ne 0 ] && exec su-me "$0" "$@"
- 
+
 HPLIP="$(pidof hpiod)"
 if [ -z "$HPLIP" ]; then
 	[ -x /etc/init.d/hplip ] && su-me /etc/init.d/hplip start
 fi
- 
+
 CUPSPID="$(pidof cupsd)"
 if [ -z "$CUPSPID" ]; then
 	[ -x /etc/init.d/cupsys ] && su-me /etc/init.d/cupsys start
 	sleep 4
 fi
- 
+
 for i in $(seq 1 20); do
 	sleep 2
- 
+
 	if lpstat -r; then
 		if -x /usr/bin/gnome-cups-manager ] ; then
 			su-me update-rc.d -f cupsys defaults
