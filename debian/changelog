@@ -4,9 +4,10 @@ configure-cups (0.6.3) UNRELEASED; urgency=low
   * NOT RELEASED YET
 
   [ Bernard Gray ]
-  * add new sidux-cups icon 
+  * add new sidux-cups icon
+  * update copyright and move svg source to icons/ 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 22 Jan 2008 11:35:08 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Tue, 22 Jan 2008 11:37:13 +1100
 
 configure-cups (0.6.2) unstable; urgency=low
 
