@@ -1,3 +1,5 @@
-*.desktop	usr/share/applications/sidux/
-cupsconfig	usr/sbin/
-icons		usr/share/
+configure-cups			usr/sbin/
+configure-cups.desktop		usr/share/applications/sidux/
+icons/configure-cups.svg	usr/share/icons/hicolor/scalable/apps/
+icons/hicolor.configure-cups/*	usr/share/icons/hicolor/
+icons/pixmaps.configure-cups/*	usr/share/pixmaps/

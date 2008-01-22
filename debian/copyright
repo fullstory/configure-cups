@@ -1,12 +1,14 @@
 This package was debianized by Klaus Knopper <knoppix@knopper.net> on
 Mon,  13 Aug 2001 00:24:42 +0200.
 
-It was downloaded from http://www.knopper.net/knoppix/
+It was downloaded from http://developer.berlios.de/projects/fullstory/
 
-Upstream Author: Klaus Knopper <knoppix@knopper.net>
-                 icons: (C) 2007 cathbard <cathbard@gmail.com>
-
-Copyright: GPL, see /usr/share/common-licenses.
+Files: *
+Copyright: (C) 2001-2005 Klaus Knopper <knoppix@knopper.net>
+           (C) 2004-2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+License: GPL-2
+  The capicupsconfig program is licensed under the GNU General Public License,
+  version 2.
 
 Files: icons/*
 Copyright: (C) 2008 Bernard Gray <bernard.gray@gmail.com>
@@ -51,4 +53,7 @@ License: CC-ASA-3.0 | LGPL-2+
 
 On Debian systems, the complete text of the GNU General Public License,
 version 2, can be found in `/usr/share/common-licenses/GPL-2'.
+
+On Debian systems, the complete text of the GNU Lesser General Public License,
+version 2, can be found in `/usr/share/common-licenses/LGPL-2'.
 

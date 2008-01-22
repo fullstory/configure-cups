@@ -1,13 +1,16 @@
-configure-cups (0.6.3) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+configure-cups (0.6.3) unstable; urgency=low
 
   [ Bernard Gray ]
   * add new sidux-cups icon
-  * update copyright and move svg source to icons/ 
+  * update copyright and move svg source to icons/
 
- -- Bernard Gray <bernard.gray@gmail.com>  Tue, 22 Jan 2008 11:37:13 +1100
+  [ Stefan Lippers-Hollmann ]
+  * remove obsolete artwork.
+  * drop now bogus build-dependency on imagemagick.
+  * use machine readable layout for debian/copyright consistently.
+  * fix packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Jan 2008 01:49:14 +0100
 
 configure-cups (0.6.2) unstable; urgency=low
 
