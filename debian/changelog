@@ -1,3 +1,9 @@
+configure-cups (0.6.5) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 21:54:45 +0100
+
 configure-cups (0.6.4) unstable; urgency=low
 
   * appease lintian and write (C) as © in debian/copyright.
