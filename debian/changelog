@@ -1,8 +1,8 @@
-configure-cups (0.6.5) UNRELEASED; urgency=low
+configure-cups (0.6.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to the new dh implementation of debhelper 7.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 21:54:45 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 00:49:36 +0200
 
 configure-cups (0.6.4) unstable; urgency=low
 
