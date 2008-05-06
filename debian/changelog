@@ -1,8 +1,9 @@
 configure-cups (0.6.5) unstable; urgency=low
 
   * switch to the new dh implementation of debhelper 7.
+  * fix path to configure-cups for debian menu system.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 00:49:36 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 00:53:03 +0200
 
 configure-cups (0.6.4) unstable; urgency=low
 

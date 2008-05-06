@@ -5,4 +5,4 @@
 	title="Configure printer(s)" \
 	icon32x32="/usr/share/pixmaps/configure-cups.xpm" \
 	icon16x16="/usr/share/pixmaps/configure-cups-16.xpm" \
-	command="su-to-root -X -c /usr/sbin/cupsconfig"
+	command="su-to-root -X -c /usr/sbin/configure-cups"
