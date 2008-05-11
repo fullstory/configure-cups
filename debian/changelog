@@ -1,14 +1,8 @@
-configure-cups (0.6.6+nmu1) UNRELEASED; urgency=low
+configure-cups (0.6.6) unstable; urgency=low
 
   * pt Translation. Fixed german translation
 
  -- Joaquim Boura <x-un-i@sidux.com>  Sat, 10 May 2008 17:04:14 +0200
-
-configure-cups (0.6.6) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 00:54:31 +0200
 
 configure-cups (0.6.5) unstable; urgency=low
 
