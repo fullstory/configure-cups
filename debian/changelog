@@ -1,16 +1,13 @@
-configure-cups (0.6.8+nmu1) UNRELEASED; urgency=low
+configure-cups (0.6.8) unstable; urgency=low
 
-  * Non-maintainer upload.
+  [ Joaquim Boura ]
   * start script is now named cups
   * added my self to the Uploaders
 
- -- Joaquim Boura <x-un-i@sidux.com>  Wed, 25 Jun 2008 10:49:10 +0200
+  [ Stefan Lippers-Hollmann ]
+  * move dependencies from cupsys* to cups*.
 
-configure-cups (0.6.8) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Jun 2008 15:34:20 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Jun 2008 13:32:52 +0200
 
 configure-cups (0.6.7) unstable; urgency=low
 
