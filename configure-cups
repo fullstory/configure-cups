@@ -19,7 +19,7 @@ fi
 
 CUPSPID="$(pidof cupsd)"
 if [ -z "$CUPSPID" ]; then
-	[ -x /etc/init.d/cupsys ] && /etc/init.d/cupsys start
+	[ -x /etc/init.d/cups ] && /etc/init.d/cups start
 	sleep 4
 fi
 
@@ -28,16 +28,16 @@ for i in $(seq 1 20); do
 
 	if lpstat -r; then
 		if [ -x /usr/bin/gnome-cups-manager ] ; then
-			update-rc.d -f cupsys defaults
+			update-rc.d -f cups defaults
 			[ -n "$DISPLAY" ] && exec /usr/bin/gnome-cups-manager
 		elif [ -x /usr/bin/kcmshell ] ; then
 			if kcmshell --nocrashhandler printers; then
-				update-rc.d -f cupsys defaults
+				update-rc.d -f cups defaults
 			else
 				kcmshell --nocrashhandler printers
 			fi
 		else
-			update-rc.d -f cupsys defaults
+			update-rc.d -f cups defaults
 			[ -n "$DISPLAY" ] && exec x-www-browser "http://127.0.0.1:631"
 			[ -z "$DISPLAY" ] && exec   www-browser "http://127.0.0.1:631"
 		fi 

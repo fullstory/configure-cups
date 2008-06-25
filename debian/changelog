@@ -1,3 +1,11 @@
+configure-cups (0.6.8+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * start script is now named cups
+  * added my self to the Uploaders
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Wed, 25 Jun 2008 10:49:10 +0200
+
 configure-cups (0.6.8) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
