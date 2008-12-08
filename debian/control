@@ -10,7 +10,13 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/configure-cups/trunk/
 
 Package: configure-cups
 Architecture: all
-Depends: cups, cups-client
-Recommends: kcontrol, xbase-clients, kdeprint, kdebase-bin, menu
+Depends: ${misc:Depends},
+         cups,
+         cups-client
+Recommends: kcontrol,
+            xbase-clients,
+            kdeprint,
+            kdebase-bin,
+            menu
 Description: Minimalistic cups configuration script
  Configuration wizzard for sidux.
