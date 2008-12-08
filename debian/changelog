@@ -1,3 +1,9 @@
+configure-cups (0.6.10) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 21:20:36 +0100
+
 configure-cups (0.6.9) unstable; urgency=low
 
   * make lintian happy and depend on ${misc:Depends}.
