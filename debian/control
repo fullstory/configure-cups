@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
          cups,
          cups-client
 Recommends: kcontrol,
-            xbase-clients,
+            x11-utils,
             kdeprint,
             kdebase-bin,
             menu
