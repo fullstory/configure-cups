@@ -1,3 +1,9 @@
+configure-cups (0.6.14) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 15:26:24 +0100
+
 configure-cups (0.6.13) unstable; urgency=low
 
   * elaborate the extended description slightly.
