@@ -19,4 +19,5 @@ Recommends: kcontrol,
             kdebase-bin,
             menu
 Description: Minimalistic cups configuration script
- Configuration wizzard for sidux.
+ Configuration wizzard for printing needs on sidux, it starts hplip/ CuPS
+ as needed and runs their respective configuration methods.
