@@ -1,8 +1,8 @@
-configure-cups (0.6.10) UNRELEASED; urgency=low
+configure-cups (0.6.10) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix desktop-entry-contains-encoding-key.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 21:20:36 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 15:17:00 +0100
 
 configure-cups (0.6.9) unstable; urgency=low
 
