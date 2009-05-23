@@ -5,9 +5,9 @@ It was downloaded from http://developer.berlios.de/projects/fullstory/
 
 Files: *
 Copyright: © 2001-2005 Klaus Knopper <knoppix@knopper.net>
-           © 2004-2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           © 2004-2009 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
-  The capicupsconfig program is licensed under the GNU General Public License,
+  The configure-cups program is licensed under the GNU General Public License,
   version 2.
 
 Files: icons/*

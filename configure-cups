@@ -1,10 +1,7 @@
 #!/bin/sh
 # cupsconfig - Start and configure cups
 # (C) Klaus Knopper Jun 2001
-# (C) 2004-2008 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-
-PATH="/bin:/sbin:/usr/bin:/usr/sbin"
-export PATH
+# (C) 2004-2009 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 if [ "$(id -u)" -ne 0 ]; then
 	[ -x "$(which su-to-root)" ] && exec su-to-root -X -c "$0" "$@"
@@ -12,13 +9,11 @@ if [ "$(id -u)" -ne 0 ]; then
 	exit 1
 fi
 
-HPLIP="$(pidof hpiod)"
-if [ -z "$HPLIP" ]; then
+if [ -z "$(pidof hpiod)" ]; then
 	[ -x /etc/init.d/hplip ] && /etc/init.d/hplip start
 fi
 
-CUPSPID="$(pidof cupsd)"
-if [ -z "$CUPSPID" ]; then
+if [ -z "$(pidof cupsd)" ]; then
 	[ -x /etc/init.d/cups ] && /etc/init.d/cups start
 	sleep 4
 fi
@@ -27,17 +22,10 @@ for i in $(seq 1 20); do
 	sleep 2
 
 	if lpstat -r; then
+		update-rc.d cups start 50 2 3 4 5 . stop 80 1 .
 		if [ -x /usr/bin/gnome-cups-manager ] ; then
-			update-rc.d -f cups defaults
-			[ -n "$DISPLAY" ] && exec /usr/bin/gnome-cups-manager
-		elif [ -x /usr/bin/kcmshell ] ; then
-			if kcmshell --nocrashhandler printers; then
-				update-rc.d -f cups defaults
-			else
-				kcmshell --nocrashhandler printers
-			fi
+			[ -n "$DISPLAY" ] && exec gnome-cups-manager
 		else
-			update-rc.d -f cups defaults
 			[ -n "$DISPLAY" ] && exec x-www-browser "http://127.0.0.1:631"
 			[ -z "$DISPLAY" ] && exec   www-browser "http://127.0.0.1:631"
 		fi 
@@ -57,4 +45,3 @@ for i in $(seq 1 20); do
 		esac
 	fi
 done
-

@@ -1,8 +1,12 @@
-configure-cups (0.6.14) UNRELEASED; urgency=low
+configure-cups (0.6.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * regenerate icons.
+  * fix copy'n'paste artefact in debian/copyright.
+  * bump copyright dates.
+  * bump standards version, no changes required.
+  * drop kde3 support, there is no kdeprint anymore.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 15:26:24 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 May 2009 01:47:51 +0200
 
 configure-cups (0.6.13) unstable; urgency=low
 
