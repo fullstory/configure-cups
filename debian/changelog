@@ -5,8 +5,9 @@ configure-cups (0.6.14) unstable; urgency=low
   * bump copyright dates.
   * bump standards version, no changes required.
   * drop kde3 support, there is no kdeprint anymore.
+  * drop obsolete, no longer fullfillable, Recommends.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 May 2009 01:47:51 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 May 2009 01:49:41 +0200
 
 configure-cups (0.6.13) unstable; urgency=low
 
