@@ -27,4 +27,3 @@ create-icons:
 		convert icons/hicolor.$${f}/32x32/apps/$${f}.png icons/pixmaps.$${f}/$${f}.xpm ; \
 		convert icons/hicolor.$${f}/16x16/apps/$${f}.png icons/pixmaps.$${f}/$${f}-16.xpm ; \
 	done
-
