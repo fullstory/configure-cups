@@ -1,4 +1,4 @@
-configure-cups (0.6.14) unstable; urgency=low
+configure-cups (0.7.0) unstable; urgency=low
 
   * regenerate icons.
   * fix copy'n'paste artefact in debian/copyright.
