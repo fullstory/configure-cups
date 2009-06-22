@@ -33,8 +33,8 @@ for i in $(seq 1 20); do
 	else
 		case "$LANG" in
 			es*)
-				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage 'Â¡No puedo arrancar el servidor CUPS!'
-				echo 'Â¡No puedo arrancar el servidor CUPS!' 1>&2
+				[ -n "$DISPLAY" ] && [ -x /usr/bin/xmessage ] && exec xmessage '¡No puedo arrancar el servidor CUPS!'
+				echo '¡No puedo arrancar el servidor CUPS!' 1>&2
 				exit 2
 				;;
 			*)

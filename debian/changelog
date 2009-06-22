@@ -1,8 +1,9 @@
-configure-cups (0.7.1) UNRELEASED; urgency=low
+configure-cups (0.7.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * remove non-utf8 characters.
+  * bump standards version to 3.8.2, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 24 May 2009 01:53:21 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Jun 2009 14:09:19 +0200
 
 configure-cups (0.7.0) unstable; urgency=low
 

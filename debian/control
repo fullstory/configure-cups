@@ -4,17 +4,17 @@ Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: Joaquim Boura <x-un-i@sidux.com>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.1
+Standards-Version: 3.8.2
 Vcs-Svn: svn://svn.berlios.de/fullstory/configure-cups/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/configure-cups/trunk/
 
 Package: configure-cups
 Architecture: all
 Depends: ${misc:Depends},
-         cups,
-         cups-client
+ cups,
+ cups-client
 Recommends: x11-utils,
-            menu
+ menu
 Description: Minimalistic cups configuration script
  Configuration wizzard for printing needs on sidux, it starts hplip/ CUPS
  as needed and runs their respective configuration methods.
