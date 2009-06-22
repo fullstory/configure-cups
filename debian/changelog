@@ -1,3 +1,9 @@
+configure-cups (0.7.2) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Jun 2009 14:10:30 +0200
+
 configure-cups (0.7.1) unstable; urgency=low
 
   * remove non-utf8 characters.
