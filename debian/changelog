@@ -1,10 +1,14 @@
 configure-cups (0.7.2) unstable; urgency=low
 
+  [ Bernard Gray ]
   * update art for 2009-02 
   * convert all bitmaps to new svg art
   * update copyright for new art 
 
- -- Bernard Gray <bernard.gray@gmail.com>  Thu, 02 Jul 2009 21:46:10 +1000
+  [ Stefan Lippers-Hollmann ]
+  * generate binary art.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2009 23:00:40 +0200
 
 configure-cups (0.7.1) unstable; urgency=low
 
