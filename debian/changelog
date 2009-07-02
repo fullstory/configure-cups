@@ -1,14 +1,8 @@
-configure-cups (0.7.2) UNRELEASED; urgency=low
+configure-cups (0.7.2) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * update art for 2009-02 
   * convert all bitmaps to new svg art
   * update copyright for new art 
-
-  * ready for release
 
  -- Bernard Gray <bernard.gray@gmail.com>  Thu, 02 Jul 2009 21:46:10 +1000
 
