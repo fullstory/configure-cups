@@ -1,8 +1,12 @@
 configure-cups (0.7.2) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 22 Jun 2009 14:10:30 +0200
+  [ Bernard Gray ]
+  * update art for 2009-02 -- do not release 
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Thu, 02 Jul 2009 19:01:35 +1000
 
 configure-cups (0.7.1) unstable; urgency=low
 
