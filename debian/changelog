@@ -1,8 +1,10 @@
-configure-cups (0.7.3) UNRELEASED; urgency=low
+configure-cups (0.7.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.8.4, no changes necessary.
+  * update years in debian/copyright.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 02 Jul 2009 23:01:29 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Apr 2010 23:47:23 +0200
 
 configure-cups (0.7.2) unstable; urgency=low
 
