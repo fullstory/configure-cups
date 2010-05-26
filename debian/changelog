@@ -1,3 +1,9 @@
+configure-cups (0.8.1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 May 2010 13:50:16 +0200
+
 configure-cups (0.8.0) unstable; urgency=low
 
   * hplip doesn't ship an initscript anymore, drop the conditionals
