@@ -1,8 +1,12 @@
-configure-cups (0.7.4) UNRELEASED; urgency=low
+configure-cups (0.8.0) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * hplip doesn't ship an initscript anymore, drop the conditionals
+  * make use of invoke-rc.d, instead of invoking initscripts directly.
+  * simplify error handling.
+  * use localhost, instead of 127.0.0.1 to achieve independence from IPv4 or
+    IPv6 domains.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Apr 2010 23:49:22 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 May 2010 13:48:17 +0200
 
 configure-cups (0.7.3) unstable; urgency=low
 
