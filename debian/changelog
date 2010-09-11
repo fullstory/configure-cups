@@ -39,7 +39,7 @@ configure-cups (0.7.3) unstable; urgency=low
 configure-cups (0.7.2) unstable; urgency=low
 
   [ Bernard Gray ]
-  * update art for 2009-02 
+  * update art for 2009-02
   * convert all bitmaps to new svg art
   * update copyright for new art 
 
