@@ -41,7 +41,7 @@ configure-cups (0.7.2) unstable; urgency=low
   [ Bernard Gray ]
   * update art for 2009-02
   * convert all bitmaps to new svg art
-  * update copyright for new art 
+  * update copyright for new art
 
   [ Stefan Lippers-Hollmann ]
   * generate binary art.
@@ -336,7 +336,7 @@ cupsconfig-kanotix (0.5-9) unstable; urgency=low
 
 cupsconfig-kanotix (0.5-8) unstable; urgency=low
 
-  * remove gnome legacy support. 
+  * remove gnome legacy support.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 16 Dec 2004 22:45:57 +0100
 
