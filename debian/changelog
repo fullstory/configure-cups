@@ -1,8 +1,10 @@
-configure-cups (0.8.1) UNRELEASED; urgency=low
+configure-cups (0.8.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.0, no changes necessary.
+  * elaborate long description a bit further, to make lintian happy.
+  * regenerate icons.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 May 2010 13:50:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 01:28:33 +0200
 
 configure-cups (0.8.0) unstable; urgency=low
 

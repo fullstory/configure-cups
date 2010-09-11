@@ -1,7 +1,7 @@
 /* XPM */
 static char *configure_cups[] = {
 /* columns rows colors chars-per-pixel */
-"32 32 241 2",
+"32 32 241 2 ",
 "   c #000000",
 ".  c #040404",
 "X  c #050505",
