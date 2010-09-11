@@ -1,3 +1,9 @@
+configure-cups (0.8.2) unstable; urgency=low
+
+  * bump standards version to 3.9.1, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 03 Aug 2010 15:55:35 +0200
+
 configure-cups (0.8.1) unstable; urgency=low
 
   * bump standards version to 3.9.0, no changes necessary.
