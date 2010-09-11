@@ -16,8 +16,8 @@ Depends: ${misc:Depends},
 Recommends: x11-utils,
  menu
 Description: Minimalistic cups configuration script
- Configuration wizzard for printing needs on sidux, it starts CUPS as needed
- and runs their respective configuration methods.
+ Configuration wizzard for printing needs, it starts CUPS as needed and runs
+ their respective configuration methods.
  .
  This is equivalent to 'x-www-browser "http://localhost:631"' and (re-)starting
  CUPS.
