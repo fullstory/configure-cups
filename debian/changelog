@@ -1,8 +1,8 @@
-configure-cups (0.8.4) UNRELEASED; urgency=low
+configure-cups (0.8.4) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * drop "menu" from Recommends.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 03:32:07 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 23:29:37 +0200
 
 configure-cups (0.8.3) unstable; urgency=low
 

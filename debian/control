@@ -13,8 +13,7 @@ Architecture: all
 Depends: ${misc:Depends},
  cups,
  cups-client
-Recommends: x11-utils,
- menu
+Recommends: x11-utils
 Description: Minimalistic cups configuration script
  Configuration wizzard for printing needs on sidux, it starts CUPS as needed
  and runs their respective configuration methods.
