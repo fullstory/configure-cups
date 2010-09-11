@@ -1,8 +1,8 @@
-configure-cups (0.8.5) UNRELEASED; urgency=low
+configure-cups (0.8.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * re-add menu, we use su-to-root.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 23:30:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 21 Aug 2010 23:34:59 +0200
 
 configure-cups (0.8.4) unstable; urgency=low
 
