@@ -1,8 +1,12 @@
 configure-cups (0.8.9) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 04:06:57 +0200
+  [ Joaquim Boura ]
+  * added ukrainian language. thks polix
+
+ -- Joaquim Boura <x-un-i@sapo.pt>  Tue, 27 Dec 2011 14:04:02 +0100
 
 configure-cups (0.8.8) unstable; urgency=low
 
