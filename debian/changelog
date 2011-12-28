@@ -1,3 +1,9 @@
+configure-cups (0.8.11) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 28 Dec 2011 08:53:37 +0100
+
 configure-cups (0.8.10) unstable; urgency=low
 
   * drop newly introduced duplicated-key-in-desktop-entry. 
