@@ -1,9 +1,11 @@
-configure-cups (0.8.9) UNRELEASED; urgency=low
+configure-cups (0.8.10) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+  * drop newly introduced duplicated-key-in-desktop-entry. 
 
-  [ Joaquim Boura ]
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 28 Dec 2011 08:53:16 +0100
+
+configure-cups (0.8.9) unstable; urgency=low
+
   * added ukrainian language. thks polix
 
  -- Joaquim Boura <x-un-i@sapo.pt>  Tue, 27 Dec 2011 14:04:02 +0100
