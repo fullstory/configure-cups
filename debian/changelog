@@ -1,8 +1,14 @@
-configure-cups (0.8.11) UNRELEASED; urgency=low
+configure-cups (0.8.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update icons.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 28 Dec 2011 08:53:37 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 03:42:31 +0100
+
+configure-cups (0.8.11) unstable; urgency=low
+
+  * switch to compat level 9.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 00:39:32 +0100
 
 configure-cups (0.8.10) unstable; urgency=low
 
