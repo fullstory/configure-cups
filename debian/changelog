@@ -1,8 +1,8 @@
-configure-cups (0.8.14) UNRELEASED; urgency=low
+configure-cups (0.8.14) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.4, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 15:51:03 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 01:23:41 +0100
 
 configure-cups (0.8.13) unstable; urgency=low
 
