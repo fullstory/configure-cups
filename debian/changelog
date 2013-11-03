@@ -1,8 +1,8 @@
-configure-cups (0.8.15) UNRELEASED; urgency=low
+configure-cups (0.8.15) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch cups service invocation to defaults.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 01:24:09 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2013 15:09:15 +0100
 
 configure-cups (0.8.14) unstable; urgency=low
 
