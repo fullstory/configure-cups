@@ -22,7 +22,7 @@ for i in $(seq 1 20); do
 	sleep 2
 
 	if lpstat -r; then
-		update-rc.d cups start 50 2 3 4 5 . stop 80 1 .
+		update-rc.d cups defaults
 		if [ -x /usr/bin/gnome-cups-manager ] ; then
 			[ -n "$DISPLAY" ] && exec gnome-cups-manager
 		else
