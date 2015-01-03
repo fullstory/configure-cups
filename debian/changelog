@@ -1,8 +1,12 @@
-configure-cups (0.8.17) UNRELEASED; urgency=medium
+configure-cups (0.8.17) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.6, no changes necessary.
+  * convert to machine readable copyright.
+  * add explicit license header to binary.
+  * use service instead of invoke-rc.d.
+  * add a simple manpage.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 21:16:48 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 18:53:38 +0100
 
 configure-cups (0.8.16) unstable; urgency=low
 
