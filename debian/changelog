@@ -1,3 +1,9 @@
+configure-cups (0.8.18) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 19:12:35 +0100
+
 configure-cups (0.8.17) unstable; urgency=medium
 
   * bump standards version to 3.9.6, no changes necessary.
