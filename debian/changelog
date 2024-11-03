@@ -6,8 +6,9 @@ configure-cups (0.8.20) unstable; urgency=medium
 
   [ Stefan Lippers-Hollmann ]
   * bump standards version to 4.7.0, no changes necessary.
+  * refresh icons.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:15:25 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:17:13 +0100
 
 configure-cups (0.8.19) unstable; urgency=medium
 

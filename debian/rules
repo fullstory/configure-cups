@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh ${@} --parallel
+	dh ${@}
 
 create-icons:
 	# requires inkscape to be installed
@@ -16,7 +16,8 @@ create-icons:
 			mkdir -p "icons/hicolor.$${f}/$${i}x$${i}/apps" ; \
 			inkscape --export-width=$${i} \
 				 --export-height=$${i} \
-				 --export-png="$(CURDIR)/icons/hicolor.$${f}/$${i}x$${i}/apps/$${f}.png" \
+				 --export-type="png" \
+				 --export-filename="$(CURDIR)/icons/hicolor.$${f}/$${i}x$${i}/apps/$${f}.png" \
 					$(CURDIR)/icons/$${f}.svg ; \
 		done ; \
 	done
