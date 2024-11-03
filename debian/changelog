@@ -7,12 +7,13 @@ configure-cups (0.8.20) unstable; urgency=medium
   [ Stefan Lippers-Hollmann ]
   * bump standards version to 4.7.0, no changes necessary.
   * refresh icons.
+  * add Kel to Uploaders.
   * make lintian a little happier:
     - vcs-field-uses-insecure-uri Git
     - cute-field Vcs-git vs Vcs-Git
     - source: silent-on-rules-requiring-root
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:19:29 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:21:10 +0100
 
 configure-cups (0.8.19) unstable; urgency=medium
 
