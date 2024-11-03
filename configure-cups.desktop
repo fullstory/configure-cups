@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=pkexec /usr/sbin/configure-cups
+Exec=/usr/sbin/configure-cups
 Icon=configure-cups
 Name=configure-cups
 Name[ru]=Настройка принтера
