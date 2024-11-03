@@ -1,7 +1,7 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: configure-cups
 Upstream-Contact: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Source: git://github.com/fullstory/configure-cups.git
+Source: https://github.com/fullstory/configure-cups.git
 
 Files: *
 Copyright: 2001-2005, Klaus Knopper <knoppix@knopper.net>
