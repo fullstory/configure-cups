@@ -1,3 +1,9 @@
+configure-cups (0.8.22) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 21:11:03 +0100
+
 configure-cups (0.8.21) unstable; urgency=medium
 
   * Use pkexec to gain root.
