@@ -8,12 +8,15 @@ configure-cups (0.8.20) unstable; urgency=medium
   * bump standards version to 4.7.0, no changes necessary.
   * refresh icons.
   * add Kel to Uploaders.
+  * bump compat level to 13.
   * make lintian a little happier:
     - vcs-field-uses-insecure-uri Git
     - cute-field Vcs-git vs Vcs-Git
     - source: silent-on-rules-requiring-root
+    - source: trailing-whitespace [debian/changelog:512]
+    - source: trailing-whitespace [debian/changelog:83]
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:21:10 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 20:22:58 +0100
 
 configure-cups (0.8.19) unstable; urgency=medium
 
@@ -80,7 +83,7 @@ configure-cups (0.8.11) unstable; urgency=low
 
 configure-cups (0.8.10) unstable; urgency=low
 
-  * drop newly introduced duplicated-key-in-desktop-entry. 
+  * drop newly introduced duplicated-key-in-desktop-entry.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 28 Dec 2011 08:53:16 +0100
 
@@ -509,4 +512,3 @@ cupsconfig-knoppix (0.5-1) unstable; urgency=low
   * Initial Release.
 
  -- Klaus Knopper <knoppix@knopper.net>  Mon,  4 Jun 2001 00:24:42 +0200
-
