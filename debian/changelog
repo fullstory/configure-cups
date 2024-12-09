@@ -1,12 +1,9 @@
-configure-cups (0.8.23) UNRELEASED; urgency=medium
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+configure-cups (0.8.23) unstable; urgency=medium
 
   [ Kel Modderman ]
   * configure-cups.desktop: set Name=Configure Cups
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 21:12:42 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 09 Dec 2024 10:49:24 +0100
 
 configure-cups (0.8.22) unstable; urgency=medium
 
